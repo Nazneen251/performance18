@@ -1,0 +1,53 @@
+input:checked{
+       height: 20px;
+       width: 20px;
+       accent-color: green;
+}
+input:enabled{
+    background-color: green;
+}
+input:disabled{
+    background-color: red;
+}
+p:empty{
+    width: 150px;
+    height: 15px;
+    background-color: red;
+}
+div p:first-of-type{
+    color: green;
+}
+input:focus{
+    background-color: green;
+}
+input:in-range{
+    border: 2px solid green;
+    background-color: green;
+}
+input:out-of-range{
+    border: 2px solid red;
+    background-color: red;
+}
+input:valid{
+    color: green;
+    border: 2px solid green;
+}
+input:invalid{
+    color: red;
+    border: 2px solid red;
+}
+div span:last-child{
+    color: red;
+}
+div p:last-of-type{
+    color: red;
+}
+p{
+    color: green;
+}
+:not(p){
+    color: red;
+}
+div.main-box p:nth-child(2){
+    color: palevioletred;
+}
